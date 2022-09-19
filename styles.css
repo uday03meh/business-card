@@ -5,6 +5,8 @@ body {
     Find a web safe font you like, and add it 
     to your card.
     */
+    background: url("Bubble-Background.svg");
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -68,3 +70,42 @@ in a folder called "business-card"
     color:#0f0f0f;
 }
 
+html {
+    box-sizing: border-box;
+      cursor: url('https://i.ibb.co/6bycCv7/Ellipse-4.png'), default;	
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+      background-color: #030302;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-template-columns: repeat(9, 40px);
+      grid-template-rows: repeat(7, 40px);
+      grid-gap: 1.5rem;
+      margin-top:40px;
+      
+  }
+  .item { background:url("profile picture.png"); 
+        background-size:cover;
+        background-repeat: no-repeat;   
+}
+
+  
+  
+  
