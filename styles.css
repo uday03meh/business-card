@@ -2,7 +2,7 @@ body {
     margin: 20px;
     /*
     Challenge:
-    Find a web safe font you like, and add it 
+    Find a web safe font you like, and add it
     to your card.
     */
     background: url("Bubble-Background.svg");
@@ -26,12 +26,12 @@ body {
     display: flex;
     justify-content: space-around;
     /* text-align: center; */
-    background: rgb(238,174,202);
+    background: rgb(238,175,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     font-size:17px;
     color: #003049;
     border-bottom: 6px solid #fec89a;
-        
+
     /*
     Challenge:
     Find a color palette you like on Coolors.co
@@ -46,11 +46,11 @@ h4{
     margin-top:0px;
 }
 p{
-    margin-bottom:10px    
+    margin-bottom:10px
 }
 /*
 Stretch goals:
-Find other ways you can personalize 
+Find other ways you can personalize
 the design of your business card, e.g.:
 - change the border(s)
 - add border radius
@@ -72,13 +72,13 @@ in a folder called "business-card"
 
 html {
     box-sizing: border-box;
-      cursor: url('https://i.ibb.co/6bycCv7/Ellipse-4.png'), default;	
+      cursor: url('https://i.ibb.co/6bycCv7/Ellipse-4.png'), default;
   }
-  
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
+
   html, body {
     height: 100%;
     width: 100%;
@@ -86,26 +86,22 @@ html {
     padding: 0;
       background-color: #030302;
   }
-  
+
   body {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .wrapper {
       display: grid;
       grid-template-columns: repeat(9, 40px);
       grid-template-rows: repeat(7, 40px);
       grid-gap: 1.5rem;
       margin-top:40px;
-      
-  }
-  .item { background:url("profile picture.png"); 
-        background-size:cover;
-        background-repeat: no-repeat;   
-}
 
-  
-  
-  
+  }
+  .item { background:url("profile picture.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+}
