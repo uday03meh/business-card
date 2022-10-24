@@ -11,6 +11,8 @@ An animated Business-Card with cool effects.
 
 <!-- Screenshot + video -->
 
+[Screencast from 10-22-2022 15:07 PM.mp4](../../Users/dell/Downloads/business_card.mp4)
+
 ## Tech Stack
 
 -HTML
@@ -24,35 +26,35 @@ An animated Business-Card with cool effects.
 
 2.  Clone your forked copy of the project.
 
-        git clone https://github.com/<your_user_name>/RockPaperScissors.git
+        git clone https://github.com/<your_user_name>/business-card.git
 
     where <your_user_name> is your GitHub username.
 
 3.  Navigate to the project directory.
 
-    cd RockPaperScissors
+        cd business-card
 
 4.  Add a reference(remote) to the original repository.
 
-    git remote add upstream https://github.com/uday03meh/RockPaperScissors.git
+        git remote add upstream https://github.com/uday03meh/business-card.git
 
 5.  Check the remotes for this repository.
 
-    git remote -v
+        git remote -v
 
 6.  Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository). Feel free to raise new issues.
 
-    git pull upstream main
+        git pull upstream main
 
 7.  Create a new branch.
 
-    git checkout -b <your_branch_name>
+        git checkout -b <your_branch_name>
 
 8.  Make necessary changes and commit those changes.
 
 9.  Track your changes.
 
-    git add .
+        git add .
 
 10. Commit your changes.
 
